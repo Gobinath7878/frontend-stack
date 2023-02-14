@@ -7,7 +7,7 @@ import loginImg from "../assets/images/Mobile.jpg";
 // import 'react-toastify/dist/ReactToastify.css';
 
 import { AuthContext } from "../context/AuthContext";
-import { BASE_URL } from "./../utils/config";
+import { BASE_URL } from "../utils/config";
 
 const Login = () => {
     const [credentials, setCredentials] = useState({

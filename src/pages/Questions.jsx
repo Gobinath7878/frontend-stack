@@ -4,8 +4,7 @@ import {NavLink} from "react-router-dom";
 import axios from "axios";
 import { useState, useEffect } from "react";
 import { Link } from 'react-router-dom';
-
-import { BASE_URL } from "./../utils/config";
+import { BASE_URL } from '../utils/config';
 
 
 const nav_links = [

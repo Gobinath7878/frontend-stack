@@ -2,7 +2,7 @@ import React,{useState,useContext} from "react";
 import { Container, Col, Row } from "reactstrap";
 import { NavLink,Link } from "react-router-dom";
 // import { Form } from "reactstrap";
-import { BASE_URL } from "./../utils/config";
+import { BASE_URL } from "../utils/config";
 //  import useFetch from "../components/hooks/useFetch"
  import {useNavigate} from "react-router-dom";
 // import { useParams } from "react-router-dom";

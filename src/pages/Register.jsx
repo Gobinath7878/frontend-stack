@@ -5,7 +5,7 @@ import "../styles/Login.css";
 import registerImg from "../assets/images/Mail-sent.jpg";
 
 import { AuthContext } from "../context/AuthContext";
-import { BASE_URL } from "./../utils/config";
+import { BASE_URL } from "../utils/config";
 
 
 const Register = () => {

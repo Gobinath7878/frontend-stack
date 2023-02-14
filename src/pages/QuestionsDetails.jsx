@@ -4,7 +4,7 @@ import { NavLink } from "react-router-dom";
 // import { useState, useEffect } from "react";
 // import { Link } from "react-router-dom";
 import { useParams } from "react-router-dom";
-import { BASE_URL } from "./../utils/config";
+import { BASE_URL } from "../utils/config";
 import "../styles/QuestionsDetails.css";
 import {useNavigate} from "react-router-dom";
 import {AuthContext} from './../context/AuthContext'
