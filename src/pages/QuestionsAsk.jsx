@@ -3,7 +3,7 @@ import { Container, Col, Row } from "reactstrap";
 import { NavLink,Link } from "react-router-dom";
 // import { Form } from "reactstrap";
 import { BASE_URL } from "./../utils/config";
-// import useFetch from "../components/hooks/useFetch"
+//  import useFetch from "../components/hooks/useFetch"
  import {useNavigate} from "react-router-dom";
 // import { useParams } from "react-router-dom";
  import {AuthContext} from './../context/AuthContext'
@@ -97,6 +97,7 @@ const QuestionsAsk = () => {
         setSuccess(true);
         setTitle("");
         setDesc("");
+        alert(data.message)
       } catch (err) {
         setError("Failed to create. Please try again.");
       }
