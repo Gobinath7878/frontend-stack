@@ -8,13 +8,18 @@ import Users from '../pages/Users'
 import Companies from '../pages/Companies'
 import QuestionsDetails from '../pages/QuestionsDetails'
 import QuestionsAsk from '../pages/QuestionsAsk'
-
+import About from '../pages/About'
+import Products from '../pages/Products'
+import Teams from '../pages/Teams'
 
 const Routers = () => {
   return (
     <Routes>
         <Route path='/' element={<Navigate to='/home'/>}  />
         <Route path='/home' element={<Home/>}  />
+        <Route path='/about' element={<About/>}  />
+        <Route path='/products' element={<Products/>}  />
+        <Route path='/teams' element={<Teams/>}  />
         <Route path='/questions' element={<Questions/>}  />
         <Route path='/questions/ask' element={<QuestionsAsk/>}  />
         <Route path='/questions/:id' element={<QuestionsDetails/>}  />

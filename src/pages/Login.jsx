@@ -91,7 +91,7 @@ const Login = () => {
                     <Button className="btn secondary__btn auth_btn" type="submit">Login</Button>
                 </Form>
                 <p>Don't have an account?
-                    <Link to='/register'> create</Link>
+                    <Link to='/register' className="create-txt"> create</Link>
                 </p>
             </div>
            </div>

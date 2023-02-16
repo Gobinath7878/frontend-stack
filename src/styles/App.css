@@ -1,13 +1,12 @@
-@import url("https://fonts.googleapis.com/css2?family=Island+Moments&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 
 :root {
   --primary-color: #ff7e01;
   --secondary-color: #faa935;
   --heading-color: #0b2727;
   --text-color: #6e7074;
-  --font-name: "Montserrat", sans-serif;
-  --subtitle-font-name: "Island Moments", cursive;
+  --font-name:'Poppins', sans-serif;
+  --subtitle-font-name:'Poppins', sans-serif;;
 }
 
 * {
@@ -17,7 +16,7 @@
 }
 
 body {
-  font-family: var(--font-name);
+  font-family: 'Poppins', sans-serif !important;
 }
 
 section {
@@ -132,4 +131,15 @@ li {
   border: 1px solid gray;
   margin: 20px;
   padding: 20px;
+}
+.abtimg{
+  width: 500px;
+  border-radius: 20px;
+}
+.abttext{
+  text-align: justify !important;
+  line-height: 30px;
+}
+.create-txt{
+  font-size: 16px !important;
 }

@@ -99,7 +99,7 @@ const Register = () => {
                 </Form>
                 <p>
                   Already have an account?
-                  <Link to="/login"> Login</Link>
+                  <Link to="/login" className="create-txt"> Login</Link>
                 </p>
               </div>
             </div>
