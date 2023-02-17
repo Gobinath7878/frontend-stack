@@ -76,7 +76,7 @@ const Questions = () => {
       {questions.map((questions) => (
         <div key={questions._id} className='q-container'>
           <Link to={`/questions/${questions._id}`} >Question: {questions.title}</Link>
-          <p>desc: {questions.desc}</p>
+          <p>tags: {questions.desc}</p>
 
           <div className='d-flex align-items-center gap-3 flex-wrap'>
           <p>answers: {questions.answers.length}</p>
